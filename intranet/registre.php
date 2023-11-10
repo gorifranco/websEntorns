@@ -1,6 +1,6 @@
 <?php
 
-    $connection = new Mysqli("localhost", "root", "DebianP1Gori", "Matricula", 3306);
+    $connection = new Mysqli("localhost", "debianp1gori", "DebianP1Gori", "Matricula", 3306);
     $connection->connect();
     $sql = "INSERT INTO Alumnat (nom, primer_llinatge, segon_llinatge, email, cicle, curs, grup) values(?,?,?,?,?,?,?);";
 
