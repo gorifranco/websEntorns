@@ -27,8 +27,7 @@
 </div>
 
 <div class="container mt-5 text-center">
-    <div class="row">
-        <h2 class="text-decoration-underline">
+        <h2 class="text-decoration-underline text-center">
             ALUMNES MATRICULATS
         </h2>
             <?php
@@ -44,7 +43,6 @@
                 echo "<p class='mx-auto'>cap alumne matriculat</p>";
             }
             ?>
-    </div>
 </div>
 
 
