@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registre</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+
+<div class="container col-md-3 mt-5 my-auto">
+  <form action="registre.php" method="POST">
+      <div class="mb-3">
+        <label for="nom">Nom:</label>
+        <input type="text" class="form-control" id="nom" name="nom" required>
+      </div>
+      <div class="mb-3">
+        <label for="primerLlinatge">Primer Llinatge:</label>
+        <input type="text" class="form-control" id="primerLlinatge" name="primerLlinatge" required>
+      </div>
+    <div class="form-row">
+      <div class="mb-3">
+        <label for="segonLlinatge">Segon Llinatge:</label>
+        <input type="text" class="form-control" id="segonLlinatge" name="segonLlinatge" required>
+      </div>
+      <div class="mb-3">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="mb-3">
+        <label for="cicle">Cicle:</label>
+        <input type="text" class="form-control" id="cicle" name="cicle" required>
+      </div>
+      <div class="row">
+        <div class="mb-3 col-md-6">
+          <label for="curs">Curs:</label>
+          <input type="text" class="form-control" id="curs" name="curs" required>
+        </div>
+        <div class="mb-3 col-md-6">
+          <label for="grup">Grup:</label>
+          <input type="text" class="form-control" id="grup" name="grup" required>
+        </div>
+      </div>
+
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary">Registrar</button>
+  </div>
+  </form>
+</div>
+
+
+<!-- Agrega els enllaços a Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
